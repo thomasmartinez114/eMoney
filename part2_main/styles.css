@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+}
+
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 13px;
+  flex-direction: row;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+  justify-content: space-around;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+  background-color: grey;
+  opacity: 0.7;
+}
+
+.emoney_logo {
+  height: 60px;
+}
+
+.free-trial-logo {
+  height: 50px;
+}
+
+.button {
+  font-size: 25px;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 20px;
+  width: 20px;
+  margin: auto;
+}
+
+.video-container {
+  z-index: -100;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.video {
+  width: 100% !important;
+  height: auto !important;
+  filter: brightness(50%);
+}
+
+article {
+  margin-top: 50%;
+  height: 450px;
+}
+
+.bk-img {
+  z-index: -100;
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.flex-center-container {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  margin: auto;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  border-spacing: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 325px;
+  
+}
+
+.flex-center1 {
+  display: flex;
+  justify-content: center;
+  border-collapse: separate;
+  border-spacing: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 25%;
+  padding-left: -200px;
+}
+
+.flex-center-item {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-center-item:hover {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.flex-center-item > div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.center-text {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  font-weight: lighter;
+  background: #00b3e3;
+  background: linear-gradient(135deg, #00b3e3 0%, #00c18b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00b3e3', endColorstr='#00c18b', GradientType=1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.center-text-paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  width: 70%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.large-font {
+  font-size: 20px;
+}
+
+.em-blue {
+    color: #00b3e3;
+    font-size: 20px;
+    font-weight: bold;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.em-green {
+    color: #00c18b;
+     font-size: 20px;
+    font-weight: bold;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-center-item > div > img {
+  width: 145px;
+  height: 55px;
+  margin-top: 30px;
+  margin-bottom: -60px;
+}
+
+
+.section3 > div {
+  padding-top: 110px;
+  
+}
